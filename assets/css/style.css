@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #5f6f52;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 4px;
+}
+
+.divider {
+  border: 1px solid #d3d3d3;
+  width: 75%;
+  margin: 60px 0;
+}
+
+/* contents */
+
+.contentBody {
+  max-width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url(~/assets/imgs/cool-background.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.content-text {
+  margin-top: 6rem;
+}
+
+.mainBtn {
+  width: 190px;
+}
+
+/* aboutme */
+.about-text {
+  width: 64%;
+}
+
+.about-text p {
+  line-height: 1.5;
+}
+
+/* Projects */
+.card {
+  max-width: 380px;
+  height: 470px;
+  background-color: #fff;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  border: 1px solid transparent;
+  transition: top ease 0.5s;
+  cursor: pointer;
+}
+
+.card:hover {
+  top: -15px;
+}
+
+.card a {
+  text-decoration: none;
+}
+
+.content {
+  padding: 0.4em;
+  height: 100%;
+}
+
+.image {
+  background-image: url(~/assets/imgs/409314380_902726557603551_2181054346708022059_n.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 220px;
+}
+
+.image2 {
+  background-image: url(~/assets/imgs/409421017_1400237017574212_203995396225433222_n.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 90%;
+}
+
+.image3 {
+  background-image: url(~/assets/imgs/nuxstore.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 90%;
+}
+
+.image4 {
+  background-image: url(~/assets/imgs/figma1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 90%;
+}
+
+.image5 {
+  background-image: url(~/assets/imgs/mnhs.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 90%;
+}
+
+.image6 {
+  background-image: url(~/assets/imgs/evalonl.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 90%;
+}
+
+.title {
+  color: #111827;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+}
+
+.action {
+  display: inline-flex;
+  margin-top: 1rem;
+  color: #ffffff;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  align-items: center;
+  gap: 0.25rem;
+  background-color: #2563eb;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.action span {
+  transition: 0.3s ease;
+}
+
+.action:hover span {
+  transform: translateX(4px);
+}
+
+/* footer */
+
+#contact {
+  padding: 20px;
+}
+
+button {
+  width: 50px;
+  height: 50px;
+}
