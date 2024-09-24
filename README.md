@@ -2,7 +2,7 @@
 
 Hello World!
 Take time to visit my website thanks :)
-https://jbhtzy.github.io/
+https://jbportfolio-blog.netlify.app/
 
 # 💻 Tech Stack:
 
