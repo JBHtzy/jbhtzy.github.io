@@ -1,5 +1,7 @@
 <script setup lang="ts">
 import Navbar from "./components/Navbar.vue";
+
+import "~/assets/css/style.css";
 </script>
 
 <template>
@@ -11,7 +13,3 @@ import Navbar from "./components/Navbar.vue";
     </div>
   </div>
 </template>
-
-<style>
-@import url("~/assets/css/style.css");
-</style>

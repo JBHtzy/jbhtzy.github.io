@@ -26,7 +26,7 @@
                   --bs-icon-link-transform: translate3d(0, -0.125rem, 0);
                   --bs-link-hover-color-rgb: 255, 255, 255;
                 "
-                to="https://drive.google.com/file/d/1ROsU18kH75BjypHlEZfbppAMTkemDD2_/view?usp=sharing"
+                to="https://drive.google.com/file/d/1JuUmnk0e8kdQZYceZZpfGHB7NhLcwMxX/view?usp=sharing"
                 target="_blank"
               >
                 <i
@@ -117,9 +117,14 @@
             alt="Bootstrap"
           />
         </div>
+        <div class="col">
+          <img
+            src="https://logovectordl.com/wp-content/uploads/2020/11/nuxtjs-logo-vector.png"
+            width="150"
+            alt="NuxtJS"
+          />
+        </div>
       </div>
     </div>
   </div>
 </template>
-
-<script setup></script>

@@ -6,7 +6,25 @@ export default defineNuxtConfig({
   app: {
     head: {
       title: "James Badang | Portfolio",
-      meta: [{ name: "author", content: "James Badang" }],
+      meta: [
+        { name: "author", content: "James Badang" },
+        {
+          name: "description",
+          content:
+            "Hello World! I'm an Aspiring Web Developer, I'm constantly expanding my knowledge and eager to contribute my skills and looking forward to use my programming skills for the growth of the organization and myself.",
+        },
+        { property: "og:title", content: "James Badang | Portfolio" },
+        { property: "og:type", content: "Portfolio Site" },
+        {
+          property: "og:url",
+          content: "https://jbportfolio-blog.netlify.app/",
+        },
+        {
+          property: "og:description",
+          content:
+            "Hello World! I'm an Aspiring Web Developer, I'm constantly expanding my knowledge and eager to contribute my skills and looking forward to use my programming skills for the growth of the organization and myself.",
+        },
+      ],
       link: [
         {
           rel: "stylesheet",
